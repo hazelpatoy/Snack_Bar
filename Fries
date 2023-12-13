@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="fries">
+      <h2>Fries</h2>
+      <ul class="fries-list">
+        <li class="fries-item">
+          <img src="images/classic-fries.png" alt="Classic Fries">
+          <h3>Classic Fries</h3>
+          <p>Golden brown and crispy, our Classic Fries are made with fresh, hand-cut potatoes and seasoned to perfection.</p>
+          <div class="fries-options">
+            <span class="size">Size:</span>
+            <select name="size">
+              <option value="small">Small ($2.99)</option>
+              <option value="medium">Medium ($3.99)</option>
+              <option value="large">Large ($4.99)</option>
+            </select>
+          </div>
+          <button type="button">Add to Order</button>
+        </li>
+        <li class="fries-item">
+          <img src="images/sweet-fries.png" alt="Sweet Potato Fries">
+          <h3>Sweet Potato Fries</h3>
+          <p>Cut fresh and oven-baked to crispy perfection, our Sweet Potato Fries are a healthy and delicious alternative to classic fries.</p>
+          <div class="fries-options">
+            <span class="size">Size:</span>
+            <select name="size">
+              <option value="small">Small ($3.49)</option>
+              <option value="medium">Medium ($4.49)</option>
+              <option value="large">Large ($5.49)</option>
+            </select>
+          </div>
+          <button type="button">Add to Order</button>
+        </li>
+        <li class="fries-item">
+          <img src="images/wedges-fries.png" alt="Cajun Fries">
+          <h3>Wedges Fries</h3>
+          <p>
+            Wedges fries: thick-cut potato slices with endless flavor possibilities. Enjoy crispy, baked, or deep-fried with your favorite dip!</p>
+          <div class="fries-options">
+            <span class="size">Size:</span>
+            <select name="size">
+              <option value="small">Small ($3.49)</option>
+              <option value="medium">Medium ($4.49)</option>
+              <option value="large">Large ($5.49)</option>
+            </select>
+          </div>
+          <button type="button">Add to Order</button>
+        </li>
+      </ul>
+    </section>    
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="burgers">
+      <h2>Burgers</h2>
+      <ul class="burger-list">
+        <li class="burger-item">
+          <img src="images/cheese-burger.png" alt="Cheeseburger">
+          <h3>Cheeseburger</h3>
+          <p>A classic cheeseburger with a juicy all-beef patty, melted American cheese, crisp lettuce, fresh tomato, red onion, tangy pickles, and creamy mayonnaise on a toasted sesame seed bun.</p>
+          <span class="price">$8.99</span>
+        </li>
+        <li class="burger-item">
+          <img src="images/bacon-burger.png" alt="Bacon Cheeseburger">
+          <h3>Bacon Cheeseburger</h3>
+          <p>All the deliciousness of a classic cheeseburger, plus crispy bacon for an extra savory bite.</p>
+          <span class="price">$9.99</span>
+        </li>
+        <li class="burger-item">
+          <img src="images/chicken-burger.png" alt="Classic Hamburger">
+          <h3>Chicken Hamburger</h3>
+          <p>Chicken Burger
+            Chicken burgers are made with ground chicken meat, which can be seasoned with various herbs and spices to give them a unique flavour. They are often topped with cheese and various condiments, such as mayonnaise, ketchup, and mustard.</p>
+          <span class="price">$6.99</span>
+        </li>
+        </ul>
+    </section>
+  </main>
+
+</body>
+</html>

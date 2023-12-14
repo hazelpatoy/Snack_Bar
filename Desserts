@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="desserts">
+        <h2>Desserts</h2>
+        <ul class="dessert-list">
+          <li class="dessert-item">
+            <img src="images/chocolate.png" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Moist and decadent chocolate cake with rich chocolate frosting.</p>
+            <span class="price">$7.99</span>
+          </li>
+          <li class="dessert-item">
+            <img src="images/cheesecake.png" alt="Cheesecake">
+            <h3>Cheesecake</h3>
+            <p>Creamy New York-style cheesecake with a graham cracker crust.</p>
+            <span class="price">$6.99</span>
+          </li>
+          <li class="dessert-item">
+            <img src="images/icecream.png" alt="Ice Cream">
+            <h3>Ice Cream</h3>
+            <p>Choose from a variety of delicious flavors of ice cream.</p>
+            <span class="price">$4.99</span>
+          </li>
+        </ul>
+      </section>
+      
+  </main>
+
+</body>
+</html>

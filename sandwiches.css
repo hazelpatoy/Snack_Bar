@@ -1,0 +1,47 @@
+#sandwiches {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.sandwich-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.sandwich-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+.sandwich-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.sandwich-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.sandwich-item p {
+  margin-top: 5px;
+}
+
+.sandwich-item .price {
+  display: block;
+  font-weight: bold;
+}
+
+.sandwich-item a {
+  color: #0095ff;
+  text-decoration: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="snacks">
+        <h2>Snacks</h2>
+        <ul class="snack-list">
+          <li class="snack-item">
+            <img src="images/chips.png" alt="Chips">
+            <h3>Chips</h3>
+            <p>Choose from a variety of potato chips, tortilla chips, and more.</p>
+            <div class="snack-options">
+              <select name="flavor">
+                <option value="plain">Plain</option>
+                <option value="bbq">BBQ</option>
+                <option value="sour cream & onion">Sour Cream & Onion</option>
+              </select>
+              <span class="price">Starting at: $1.99</span>
+            </div>
+          </li>
+          <li class="snack-item">
+            <img src="images/fruit.png" alt="Fruit Salad">
+            <h3>Fruit Salad</h3>
+            <p>A refreshing and healthy mix of seasonal fruits.</p>
+            <div class="snack-options">
+              <span class="price">$3.99</span>
+            </div>
+          </li>
+          <li class="snack-item">
+            <img src="images/bar.png" alt="Granola Bars">
+            <h3>Granola Bars</h3>
+            <p>A delicious and nutritious snack choice.</p>
+            <div class="snack-options">
+              <select name="size">
+                <option value="single">Single</option>
+                <option value="pack">Pack of 6</option>
+              </select>
+              <span class="price">Single: $1.50 | Pack: $4.50</span>
+            </div>
+          </li>
+  
+        </ul>
+      </section>
+      
+  </main>
+
+</body>
+</html>

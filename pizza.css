@@ -1,0 +1,42 @@
+#pizza {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.pizza-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+.pizza-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.pizza-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.pizza-item p {
+  margin-top: 5px;
+}
+
+.pizza-item .price {
+  display: block;
+  font-weight: bold;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sandwiches">
+        <h2>Sandwiches</h2>
+        <ul class="sandwich-list">
+          <li class="sandwich-item">
+            <img src="images/club.png" alt="Club Sandwich">
+            <h3>Club Sandwich</h3>
+            <p>Layers of turkey, bacon, lettuce, tomato, and mayonnaise on toasted white bread.</p>
+            <span class="price">$8.99</span>
+          </li>
+          <li class="sandwich-item">
+            <img src="images/grilled.png" alt="Grilled Cheese">
+            <h3>Grilled Cheese</h3>
+            <p>Melted cheddar cheese on toasted sourdough bread.</p>
+            <span class="price">$6.99</span>
+          </li>
+          <li class="sandwich-item">
+            <img src="images/salad.png"Chicken Salad Sandwich">
+            <h3>Chicken Salad Sandwich</h3>
+            <p>Creamy chicken salad with celery, grapes, and walnuts on toasted wheat bread.</p>
+            <span class="price">$7.99</span>
+          </li>
+        </ul>
+      </section>
+      
+  </main>
+
+</body>
+</html>

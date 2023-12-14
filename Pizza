@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pizza">
+        <h2>Pizza Menu</h2>
+        <ul class="pizza-list">
+          <li class="pizza-item">
+            <img src="images/classic-pizza.png" alt="Classic Pizza">
+            <h3>Classic Pizza</h3>
+            <p>Made with our signature tomato sauce, mozzarella cheese, and your choice of toppings</p>
+            <span class="price">Small: $10.99 | Medium: $12.99 | Large: $14.99</span>
+          </li>
+          <li class="pizza-item">
+            <img src="images/pepperoni.png" alt="Pepperoni Pizza">
+            <h3>Pepperoni Pizza</h3>
+            <p>Classic pizza topped with pepperoni</p>
+            <span class="price">Small: $11.99 | Medium: $13.99 | Large: $15.99</span>
+          </li>
+          <li class="pizza-item">
+            <img src="images/veggie.png" alt="Vegetarian Pizza">
+            <h3>Vegetarian Pizza</h3>
+            <p>Loaded with fresh vegetables like peppers, onions, mushrooms, and olives</p>
+            <span class="price">Small: $12.99 | Medium: $14.99 | Large: $16.99</span>
+          </li>
+        </ul>
+      </section>
+      
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="drinks">
+      <h2>Drinks</h2>
+      <ul class="drink-list">
+        <li class="drink-category">
+          <h3>Soft Drinks</h3>
+          <ul>
+            <li class="drink-item">
+              <img src="images/coke.png" alt="Coke">
+              <h4>Coke</h4>
+              <span class="price">$1.99</span>
+            </li>
+            <li class="drink-item">
+              <img src="images/sprite.png" alt="Sprite">
+              <h4>Sprite</h4>
+              <span class="price">$1.99</span>
+            </li>
+            <li class="drink-item">
+              <img src="images/fanta.png" alt="Fanta">
+              <h4>Fanta</h4>
+              <span class="price">$1.99</span>
+            </li>
+          </ul>
+        </li>
+        <li class="drink-category">
+          <h3>Juices</h3>
+          <ul>
+            <li class="drink-item">
+              <img src="images/orange.png" alt="Orange Juice">
+              <h4>Orange Juice</h4>
+              <span class="price">$2.99</span>
+            </li>
+            <li class="drink-item">
+              <img src="images/apple.png" alt="Apple Juice">
+              <h4>Apple Juice</h4>
+              <span class="price">$2.99</span>
+            </li>
+            <li class="drink-item">
+              <img src="images/grape.png" alt="Grapefruit Juice">
+              <h4>Grapefruit Juice</h4>
+              <span class="price">$2.99</span>
+            </li>
+          </ul>
+        </li>
+        <li class="drink-category">
+          <h3>Bottled Water</h3>
+          <ul>
+            <li class="drink-item">
+              <img src="images/water.png" alt="Water Bottle">
+              <h4>Water Bottle</h4>
+              <span class="price">$1.50</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    
+  </main>
+
+</body>
+</html>

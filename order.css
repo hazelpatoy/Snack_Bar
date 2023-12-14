@@ -1,0 +1,43 @@
+.order-number {
+  font-weight: bold;
+}
+
+.order-details {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.order-details td,
+.order-details th {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+.order-details th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.total-row {
+  font-weight: bold;
+}
+
+.history-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.history-table td,
+.history-table th {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+.history-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.history-table a {
+  color: #0095ff;
+}

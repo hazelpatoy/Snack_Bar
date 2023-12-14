@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="special-offer">
+        <img src="images/burger-fries.png" alt="Burger and fries image">
+        <h3>Free Fries with Any Burger!</h3>
+        <p>Get a free order of our delicious fries with every burger purchase.</p>
+        <p>Use code <strong>FRIESFREE</strong> at checkout to redeem the offer.</p>
+        <p>Offer valid until December 25, 2023.</p>
+        <a href="#">Order Now</a>
+      </div>      
+  </main>
+
+</body>
+</html>

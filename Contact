@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form action="/contact-us" method="post">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </section>
+      
+  </main>
+
+</body>
+</html>

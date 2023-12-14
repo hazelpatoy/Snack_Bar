@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <nav>
+      <ul>
+        <li><a href="Burgers">Burgers</a></li>
+        <li><a href="Fries">Fries</a></li>
+        <li><a href="Pizza">Pizza</a></li>
+        <li><a href="Sandwiches">Sandwiches</a></li>
+        <li><a href="Drinks">Drinks</a></li>
+        <li><a href="Desserts">Desserts</a></li>
+        <li><a href="Snacks">Snacks</a></li>
+        <li><a href="Specials">Specials</a></li>
+        <li><a href="Order">Order</a></li>
+        <li><a href="Contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Order Confirmation</h2>
+  <p>Thank you for your order! Your order number is <strong>#12345</strong>. You can track your order <a href="#order-history">here</a>.</p>
+  <table class="order-details">
+    <tr>
+      <th>Item</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Cheeseburger</td>
+      <td>2</td>
+      <td>$10.00</td>
+    </tr>
+    <tr>
+      <td>French Fries</td>
+      <td>1</td>
+      <td>$2.50</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td></td>
+      <td><strong>$12.50</strong></td>
+    </tr>
+  </table>
+  <p>Your order will be ready for pickup in approximately 15 minutes.</p>
+  <p>Please note: You will receive a notification via email when your order is ready.</p>
+  <p>Thank you for choosing Snack Bar!</p>
+
+  <hr>
+
+</body>
+</html>
